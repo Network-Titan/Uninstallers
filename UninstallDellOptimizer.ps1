@@ -1,3 +1,5 @@
+# Taken from - https://stackoverflow.com/a/74073601
+
 #stop dell optimizer services
 Get-Service -Name "DellOptimizer" | Stop-Service
 
