@@ -19,3 +19,6 @@ Detection Method:
 Registry  
 Key Path: ```HKEY_LOCAL_MACHINE\SOFTWARE\McAfee```  
 Detection Method: ```Key does not exist```
+
+# After Removal
+Once McAfee is removed, you should also remove the exclusions that it sets up. Currently, I run [this](https://raw.githubusercontent.com/Network-Titan/Uninstallers/main/Remove%20McAfee/RemoveDefenderExclusions.ps1) manually, but it could probably be automated easily.
