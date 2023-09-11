@@ -1,0 +1,1 @@
+Get-AppxPackage -Name BytedancePte.Ltd.TikTok | Remove-AppxPackage
